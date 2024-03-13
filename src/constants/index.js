@@ -3,26 +3,29 @@ import {
     backend,
     creator,
     web,
-    javascript,
+    waqaf,
     typescript,
     html,
     css,
     reactjs,
-    redux,
+    php,
     tailwind,
-    nodejs,
-    mongodb,
+    laravel,
+    net,
+    sql,
     git,
-    figma,
+    epicor,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    omega,
+    ctc,
+    future,
+    akwad,
+    manih,
+    fleet,
+    oracle,
+    shagaf,
+    taseti,
+    store,
   } from "../assets";
   
   export const navLinks = [
@@ -46,16 +49,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "DevOps Engineer",
+      icon: creator,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Application Developer",
+      icon: mobile,
     },
   ];
   
@@ -69,10 +72,6 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "TypeScript",
       icon: typescript,
     },
@@ -81,32 +80,36 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "PHP",
+      icon: php,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Laravel",
+      icon: laravel,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: ".Net",
+      icon: net,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "Oracle",
+      icon: oracle,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "EPICOR",
+      icon: epicor,
     },
     {
       name: "docker",
@@ -116,24 +119,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer",
+      company_name: "Omega Team",
+      icon: omega,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2018 - Feb 2019",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,29 +132,48 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "PHP Developer",
+      company_name: "Akwad",
+      icon: akwad,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar 2019 - Sep 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained websites and systems as a PHP Developer at Akwad Company.",
+        "Collaborated with cross-functional teams to design and implement website development projects.",
+        "Utilized PHP programming language to create efficient and user-friendly websites.",
+        "Conducted regular maintenance and updates to ensure optimal performance and functionality.",
+        "Demonstrated strong problem-solving skills in troubleshooting and resolving technical issues.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Developer",
+      company_name: "Future Investment",
+      icon: future,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2019 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided remote maintenance and support for software projects, ensuring smooth operation and resolving any issues promptly.",
+        "Developed and maintained websites and systems, delivering high-quality solutions that met client requirements and enhanced user experience.",
+        "Conducted comprehensive research and analysis to identify and address root causes of operational issues, resulting in improved efficiency and performance.",
+        "Gathered detailed requirements from stakeholders for software projects, ensuring alignment with business needs and objectives.",
+        "Conducted thorough analysis of software, identifying areas for improvement and implementing solutions to enhance functionality and user satisfaction.",
+        "Followed industry best practices and coding standards to ensure the delivery of clean, efficient, and reliable software solutions.",
+        "Stayed updated with the latest trends and technologies in software development, continuously enhancing skills and knowledge to deliver cutting-edge solutions.",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "CTC Group",
+      icon: ctc,
+      iconBg: "#383E56",
+      date: "Jun 2022 - Present",
+      points: [
+        "Spearheaded a comprehensive research initiative, utilizing data-driven methods and conducting market analysis, to identify areas for improvement and optimize business processes.",
+        "Provided support for software projects, ensuring smooth operation and timely resolution of issues.",
+        "Collaborated with cross-functional teams to develop and maintain software applications, adhering to best practices and industry standards.",
+        "Played a key role in the support and development of the Epicor ERP System, enhancing its functionality and efficiency.",
+        "Conducted thorough analysis of software applications, identifying areas for improvement and implementing necessary changes.",
+        "Applications & System Development.",
       ],
     },
   ];
@@ -198,9 +207,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Waqaf",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A technical system for Endowment Management and customer service.",
       tags: [
         {
           name: "react",
@@ -215,13 +224,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: waqaf,
+      source_code_link: "https://waqaf.munzir-dev.top/login",
     },
     {
-      name: "Job IT",
+      name: "Manih",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A scientific technical system to direct grants to the best recipients in accordance with Sharia objectives.",
       tags: [
         {
           name: "react",
@@ -236,13 +245,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: manih,
+      source_code_link: "https://manih.munzir-dev.top/login",
     },
     {
-      name: "Trip Guide",
+      name: "Quick",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Fleet Managment System.",
       tags: [
         {
           name: "nextjs",
@@ -257,8 +266,71 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: fleet,
+      source_code_link: "https://quick.munzir-dev.top/",
+    },
+    {
+      name: "Shagaf",
+      description:
+        "The Shaghaf platform is a website that provides support services for Freelancing Platform.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shagaf,
+      source_code_link: "https://shaghf-helpdesk.munzir-dev.top/",
+    },
+    {
+      name: "Taseti",
+      description:
+        "Streaming Platform is suitable for music, videos, Series, Movies.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: taseti,
+      source_code_link: "https://taseti.mobi/",
+    },
+    {
+      name: "Store",
+      description:
+        "Streaming Platform is suitable for music, videos, Series, Movies.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: store,
+      source_code_link: "https://store.munzir-dev.top/",
     },
   ];
   
