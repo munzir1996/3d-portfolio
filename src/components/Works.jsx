@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -45,7 +46,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        {/* <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -54,7 +55,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               #{tag.name}
             </p>
           ))}
-        </div>
+        </div> */}
       </Tilt>
     </motion.div>
   );

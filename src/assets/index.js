@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,6 +27,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import epicor from "./tech/epicor.png";
+import vue from "./tech/vue.png";
+import angular from "./tech/angular.png";
 
 import meta from "./company/meta.png";
 import ctc from "./company/ctc.png";
@@ -69,6 +72,8 @@ export {
   laravel,
   net,
   sql,
+  vue,
+  angular,
   epicor,
   oracle,
   tailwind,
@@ -91,4 +96,5 @@ export {
   shagaf,
   taseti,
   store,
+  link,
 };

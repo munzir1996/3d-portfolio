@@ -5,8 +5,8 @@ import {
     web,
     waqaf,
     typescript,
-    html,
-    css,
+    vue,
+    angular,
     reactjs,
     php,
     tailwind,
@@ -64,12 +64,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Vue JS",
+      icon: vue,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Angular JS",
+      icon: angular,
     },
     {
       name: "TypeScript",
@@ -314,7 +314,7 @@ import {
     {
       name: "Store",
       description:
-        "Streaming Platform is suitable for music, videos, Series, Movies.",
+        "A Simple UI Dashboard for recieving orders and assigning it to drivers.",
       tags: [
         {
           name: "nextjs",
