@@ -48,6 +48,9 @@ import fleet from "./fleet.png";
 import shagaf from "./shagaf.png";
 import taseti from "./taseti.png";
 import store from "./store.png";
+import digitech from "./DigiTech.jpg";
+import scientia from "./scientia.jpg";
+import minute from "./3minute.png";
 
 export {
   logo,
@@ -96,5 +99,8 @@ export {
   shagaf,
   taseti,
   store,
+  digitech,
+  scientia,
+  minute,
   link,
 };

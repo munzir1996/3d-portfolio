@@ -26,6 +26,9 @@ import {
     shagaf,
     taseti,
     store,
+    digitech,
+    scientia,
+    minute,
   } from "../assets";
   
   export const navLinks = [
@@ -312,6 +315,27 @@ import {
       source_code_link: "https://taseti.mobi/",
     },
     {
+      name: "3minute",
+      description:
+        "3Minute App Taxi is a fast and reliable ride-hailing service.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: minute,
+      source_code_link: "https://3minute.sa/",
+    },
+    {
       name: "Store",
       description:
         "A Simple UI Dashboard for recieving orders and assigning it to drivers.",
@@ -331,6 +355,48 @@ import {
       ],
       image: store,
       source_code_link: "https://store.munzir-dev.top/",
+    },
+    {
+      name: "DigiTech",
+      description:
+        "Suppliers & Sales app for delivering LG products and sales.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: digitech,
+      source_code_link: "https://assets.visualcv.com/assets/3229333/DigiTech.pdf",
+    },
+    {
+      name: "Scientia",
+      description:
+        "A System for managing a Gold Company Operations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: scientia,
+      source_code_link: "https://assets.visualcv.com/assets/2529187/Scientia.pdf",
     },
   ];
   
